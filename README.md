@@ -8,4 +8,4 @@ This project is a starting point for a Flutter application.
 
 ### Screenshot
 
-![Screenshot hello_world](images/01.png)
+![Tampilan nama lengkap di aplikasi Flutter](images/01.png)
