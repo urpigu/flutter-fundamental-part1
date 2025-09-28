@@ -77,15 +77,21 @@ flutter:
 **Singkatnya**: Halaman iOS sederhana untuk membandingkan gaya Material vs Cupertino.  
 **File**: `basic_widget/loading_cupertino.dart` (tanpa membungkus `MaterialApp`).
 
+  ![Tampilan Logo Politeknik Negeri Malang](images/04.png)
+
 #### Langkah 2 — Floating Action Button (FAB)
 **Bagian apa**: Tombol aksi melayang (FAB) untuk aksi cepat (increment counter).  
 **Singkatnya**: Implementasi FAB standar + variasi (small/large/extended) dan posisi **centerDocked** dengan **notch**.  
 **File**: `basic_widget/fab_widget.dart` (komponen FAB yang reusable).
 
+  ![Tampilan Logo Politeknik Negeri Malang](images/05.png)
+
 #### Langkah 3 — Scaffold Widget
 **Bagian apa**: Kerangka halaman **Material**: `AppBar`, `body`, `BottomAppBar`, `floatingActionButton`.  
 **Singkatnya**: Menyatukan layout app yang proper dan konsisten.  
 **File**: `basic_widget/scaffold_widget.dart`.
+
+  ![Tampilan Logo Politeknik Negeri Malang](images/06.png)
 
 #### Langkah 4 — Dialog Widgets (AlertDialog & SimpleDialog)
 **Bagian apa**: Dialog konfirmasi & pilihan sederhana.  
@@ -94,15 +100,29 @@ flutter:
 - **SimpleDialog** untuk memilih opsi (A/B), hasil ditampilkan via `SnackBar`.  
 **File**: `basic_widget/dialog_widget.dart`.
 
+  ![Tampilan Logo Politeknik Negeri Malang](images/07_01.png)
+
+  ![Tampilan Logo Politeknik Negeri Malang](images/07_02.png)
+
+  ![Tampilan Logo Politeknik Negeri Malang](images/07_03.png)
+
 #### Langkah 5 — Input & Selection (TextField)
 **Bagian apa**: Form input sederhana dengan **TextField** & `InputDecoration`.  
 **Singkatnya**: Menangkap teks dengan tampilan Material (`OutlineInputBorder`, `labelText`).  
 **File**: `basic_widget/text_field_widget.dart`.
 
+  ![Tampilan Logo Politeknik Negeri Malang](images/07_8.png)
+
 #### Langkah 6 — Date & Time Pickers
 **Bagian apa**: `showDatePicker` & `showTimePicker`.  
 **Singkatnya**: Memilih tanggal & waktu, menampilkan hasil terformat; tombol berada **di tengah**.  
 **File**: `basic_widget/date_time_picker_widget.dart`.
+
+  ![Tampilan Logo Politeknik Negeri Malang](images/09_1.png)
+
+  ![Tampilan Logo Politeknik Negeri Malang](images/09_2.png)
+
+  ![Tampilan Logo Politeknik Negeri Malang](images/09_3.png)
 
 ---
 
