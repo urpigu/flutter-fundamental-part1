@@ -100,18 +100,18 @@ flutter:
 - **SimpleDialog** untuk memilih opsi (A/B), hasil ditampilkan via `SnackBar`.  
 **File**: `basic_widget/dialog_widget.dart`.
 
-  ![Tampilan Logo Politeknik Negeri Malang](images/07_01.png)
+  ![Tampilan Logo Politeknik Negeri Malang](images/07_1.png)
 
-  ![Tampilan Logo Politeknik Negeri Malang](images/07_02.png)
+  ![Tampilan Logo Politeknik Negeri Malang](images/07_2.png)
 
-  ![Tampilan Logo Politeknik Negeri Malang](images/07_03.png)
+  ![Tampilan Logo Politeknik Negeri Malang](images/07_3.png)
 
 #### Langkah 5 — Input & Selection (TextField)
 **Bagian apa**: Form input sederhana dengan **TextField** & `InputDecoration`.  
 **Singkatnya**: Menangkap teks dengan tampilan Material (`OutlineInputBorder`, `labelText`).  
 **File**: `basic_widget/text_field_widget.dart`.
 
-  ![Tampilan Logo Politeknik Negeri Malang](images/07_8.png)
+  ![Tampilan Logo Politeknik Negeri Malang](images/08.png)
 
 #### Langkah 6 — Date & Time Pickers
 **Bagian apa**: `showDatePicker` & `showTimePicker`.  
