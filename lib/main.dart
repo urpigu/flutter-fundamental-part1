@@ -24,7 +24,6 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
-
   final String title;
 
   @override
@@ -33,15 +32,14 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
+  void _incrementCounter() => setState(() => _counter++);
 
   @override
   Widget build(BuildContext context) {
+    const String logoPath = 'assets/logo_polinema.png';
+    const double logoBoxSize =
+        240; // ubah angka ini kalau ingin lebih besar/kecil
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
@@ -51,6 +49,21 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            // Logo presisi: tidak terpotong, selalu proporsional
+            SizedBox(
+              width: logoBoxSize,
+              height: logoBoxSize,
+              child: FittedBox(
+                fit: BoxFit.contain,
+                alignment: Alignment.center,
+                child: Image.asset(
+                  logoPath,
+                  isAntiAlias: true,
+                  filterQuality: FilterQuality.high,
+                ),
+              ),
+            ),
+            const SizedBox(height: 12),
             const MyTextWidget(),
             const SizedBox(height: 12),
             Text(
