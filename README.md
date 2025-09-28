@@ -151,8 +151,8 @@ flutter run -d chrome      # atau emulator-5554, windows, macos, linux
 ---
 
 ## 📚 Referensi
-- Codelab JTI Polinema — *Widget Dasar & Material/Cupertino*  
-  https://jti-polinema.github.io/flutter-codelab/05-first-app-widget-dasar-flutter/
+- Codelab JTI Polinema — *Aplikasi Pertama dan Widget Dasar Flutter*  
+  https://jti-polinema.github.io/flutter-codelab/05-first-app-widget-dasar-flutter/#0
 
 ---
 
