@@ -1,6 +1,6 @@
 # Hello World — Flutter 🚀
 
-> Proyek latihan Flutter untuk mata kuliah **Pemrograman Mobile** (Polinema).
+> Proyek latihan Flutter untuk mata kuliah **Pemrograman Mobile** (Politeknik Negeri Malang).
 > Disusun bertahap mengikuti codelab JTI Polinema: dari pembuatan repository,
 > widget dasar, sampai **Material** & **Cupertino** widgets.
 
@@ -11,9 +11,6 @@
 - **Bahasa**: Dart
 - **Fokus**: Widget dasar, aset gambar, Material & Cupertino, dialog, input,
   FAB, serta Date/Time pickers.
-- **Screenshot**:
-
-  ![Tampilan Nama Lengkap di Aplikasi Flutter](images/01.png)
 
 ---
 
@@ -51,6 +48,9 @@ flutter:
 **Singkatnya**:
 - `git init`, tambah remote, commit & push.
 - Menyusun **README.md** untuk dokumentasi dan bukti praktikum.
+- Dan juga inisiasi **Nama Lengkap** untuk proyeknya.
+
+  ![Tampilan Nama Lengkap di Aplikasi Flutter](images/01.png)
 
 ---
 
@@ -58,7 +58,13 @@ flutter:
 **Bagian apa**: Pengenalan **StatelessWidget** & **StatefulWidget**, dan widget dasar.  
 **Singkatnya**:
 - `text_widget.dart` — menampilkan nama lengkap (widget teks kustom).
+
+  ![Tampilan Nama Lengkap Widget (Kustom)](images/02.png)
+
 - `image_widget.dart` — menampilkan **logo Polinema** dari folder `assets/`.
+
+  ![Tampilan Logo Politeknik Negeri Malang](images/03.png)
+
 - Latihan **Row/Column/Container** & **Hot Reload**.
 - Counter sederhana dengan `setState` (FAB menambah angka).
 
@@ -130,5 +136,5 @@ flutter run -d chrome      # atau emulator-5554, windows, macos, linux
 
 ---
 
-## 📝 Lisensi
-Proyek tugas/latihan akademik. Silakan modifikasi untuk keperluan pembelajaran.
+## 📝 Author
+(2341760168) - A. A. Ngurah Sadhu Gunawan
